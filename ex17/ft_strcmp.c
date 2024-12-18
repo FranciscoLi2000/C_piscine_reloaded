@@ -30,6 +30,6 @@ int	main(void)
 {
 	char *str1 = "AABBCC";
 	char *str2 = "AABDCC";
-	ft_strcmp(str1, str2);
+	printf("%i\n", ft_strcmp(str1, str2));
 	return (0);
 }
