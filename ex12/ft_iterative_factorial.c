@@ -35,11 +35,7 @@ int	ft_iterative_factorial(int nb)
 
 int	main(void)
 {
-	int	num;
-
-	printf("number = ");
-	scanf("%i\n", &num);
-	ft_iterative_factorial(num);
-	printf("%i\n", num);
+	ft_iterative_factorial(5);
+	printf("%i\n", ft_iterative_factorial(5));
 	return (0);
 }
