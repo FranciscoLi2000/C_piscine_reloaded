@@ -37,7 +37,9 @@ int	main(void)
 {
 	int	num;
 
-	num = 7;
-	printf("%i\n", ft_iterative_factorial(num));
+	printf("number = ");
+	scanf("%i\n", &num);
+	ft_iterative_factorial(num);
+	printf("%i\n", num);
 	return (0);
 }
